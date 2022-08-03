@@ -20,7 +20,7 @@ class CMRQuery:
 
         provider = request.args.get("cmr_provider")
         if provider == None:
-            provider = 'ASF'
+            provider = 'ASFDEV'
 
         self.extra_params = [
             {'provider': provider},  # always limit the results to a provider, default 'ASF'
